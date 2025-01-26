@@ -1,1 +1,23 @@
 /*Ini File CSS*/
+
+main{
+    display: flex;
+    gap: 32px;
+    padding: 32px
+}
+footer {
+    text-align: center;
+}
+.main.header{
+    text-align: center;  
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#result-bmi {
+    font-size: xxx-large;
+    font-family: math;
+}
