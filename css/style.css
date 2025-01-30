@@ -1,9 +1,9 @@
 /*Ini File CSS*/
 
 main{
+    padding: 32px;
     display: flex;
-    gap: 32px;
-    padding: 32px
+    flex-direction: column;
 }
 footer {
     text-align: center;
@@ -12,12 +12,76 @@ footer {
     text-align: center;  
 }
 
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  form{
+    background-color: rgb(236, 204, 163);
+    padding: 32px;
+  }
+
 .form-group {
     display: flex;
     flex-direction: column;
+    padding-bottom: 16px;
+}
+
+.btn  {
+    border: none;
+    margin-top: 3%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: cadetblue;
+}
+
+
+
+.btn:hover {
+  background-color: #136767;
+}
+
+.btn-reset {
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
+  cursor:pointer
+}
+
+.btn-reset:hover {
+  background-color: #c3c2c2;
+}
+
+
+button{
+    border: none;
+    padding: 8px;
+    color: #e31158;
+    cursor: pointer
+}
+
+.bg-black{
+    background: black;
+}
+
+.bg-cadet-blue{
+    background-color: cadetblue;
+}
+.result-section {
+   padding:16px;
+   text-align: center; 
+   background-color: rgb(236, 204, 163);
 }
 
 #result-bmi {
     font-size: xxx-large;
     font-family: math;
+    
 }
+
+    
+
